@@ -1,22 +1,5 @@
 # maxo设备解密
 
-## 1、下载
-
-固件下载：https://www.moxa.com/en/products/industrial-edge-connectivity/serial-device-servers/wireless-device-servers/nport-w2150a-w2250a-series#resources
-
-
-这个只有2.3版本，可以再这个网站下载之前的版本，这是网站的镜像。
-
-https://web.archive.org/web/20210127235537/https://moxa.com/en/support/search?psid=50591
-
-参考文献：https://medium.com/@marcel.rickcen/moxa-nport-w2150a-using-osint-to-find-unencrypted-firmware-2fc61980fc63
-
-
-固件：2.3：[moxa-nport-w2150a-w2250a-series-firmware-v2.3.rom](vx_attachments/141450444056226/moxa-nport-w2150a-w2250a-series-firmware-v2.3.rom)
-
-固件：1.1：[moxa-nport-w2150a-w2250a-series-firmware-v1.11.rom](vx_attachments/141450444056226/moxa-nport-w2150a-w2250a-series-firmware-v1.11.rom)
-
-
 ## 2、解密
 
     binwalk moxa-nport-w2150a-w2250a-series-firmware-v2.3.rom 
